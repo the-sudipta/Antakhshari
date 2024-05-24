@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Antakhshari</string>
+    <string name="thanks_giving">
+        Thanks For Downloading Antakhshari.\n
+        The game Instructions are: \n\n
+    </string>
+    <string name="game_instructions">
+        Thanks For Downloading Antakhshari.\n
+        The game Instructions are: \n\n
+        1. First of all, Put 2 team names, who are going to participate in this game. \n\n
+        2. Press next button to play the game. \n\n
+        3. At the starting, the game will randomly select a team to sing a song [You can see the current team name who is taking the challenge] \n\n
+        4. Press "Challenge" button to know the alphabet to start the song with. \n\n
+        5. If a team can sing a song starting with the letter, then press the (+) button to add score. \n\n
+        6. The team scores more than another, wins. \n\n
+        7. Here is no time limits. SO, you can start and stop at any time. Moreover, you can target a time by yourself, to conduct the game. \n\n
+        8. Enjoy !!! \n
+    </string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "662564708331",
+    "firebase_url" : "https://antakhshari-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    "project_id": "antakhshari",
+    "storage_bucket": "antakhshari.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662564708331:android:ce172596a8e22f3da203ae",
+        "android_client_info": {
+          "package_name": "com.example.antakhshari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662564708331-m82sgn7st76e5amjgp5qvipqsmkmgn2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB24MxdMYQgCaSXZn47Hhx9f5JrkujtIIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662564708331-m82sgn7st76e5amjgp5qvipqsmkmgn2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

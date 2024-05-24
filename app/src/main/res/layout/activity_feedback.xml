@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity">
+
+    <TextView
+        android:id="@+id/feedback_below_textView"
+        android:layout_width="144dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:text="Feedback"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/feedback_editTextTextMultiLine"
+        android:layout_width="338dp"
+        android:layout_height="298dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/sea_blue_a"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Write your feedback here"
+        android:inputType="textMultiLine"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedback_below_textView" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="216dp"
+        android:layout_height="73dp"
+        android:background="@drawable/capsule_background"
+        android:drawableEnd="@drawable/send"
+        android:padding="23dp"
+        android:text="Send"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedback_editTextTextMultiLine"
+        app:layout_constraintVertical_bias="0.152" />
+</androidx.constraintlayout.widget.ConstraintLayout>
